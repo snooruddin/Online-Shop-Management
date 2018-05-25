@@ -49,6 +49,7 @@ CREATE TABLE Orders
 ,   pid INTEGER
 ,   quantity INTEGER CHECK(quantity > 0)
 ,   totalPrice NUMBER(9,2) CHECK(totalPrice > 0)
+,   clubPointsUsed NUMBER(9,2) 
     
 ,   PRIMARY KEY(id)
 ,   FOREIGN KEY(cid) REFERENCES customers(id)

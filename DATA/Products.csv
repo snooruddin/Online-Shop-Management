@@ -1,0 +1,36 @@
+id,name,manufacturer,type,subtype,price,quantityInStock
+1,i3,intel,electronics,processor,18000,20
+2,i5,intel,electronics,processor,23000,20
+3,i7,intel,electronics,processor,27000,20
+4,al-83,altec lancing,electronics,speaker,8000,20
+5,km-83,kamasonic,electronics,speaker,2000,20
+6,i-9,ingco,hardware,screwdriver set,300,20
+7,kemei-62,kemei,electronics,shaver,1000,20
+8,ht-83,hitachi,electronics,shaver,2000,20
+9,n-23,nova,electronics,blender,4000,20
+10,m-45,miako,electronics,blender,3000,20
+11,gt-980,nvidia,electronics,graphics card,19000,20
+12,gt-1080ti,nvidia,electronics,graphics card,27000,20
+13,rx-370,amd,electronics,graphics card,15000,20
+14,y-93,xiaomi,electronics,light,2000,20
+15,alexa,amazon,electronics,assistant,15000,20
+16,google home,google,electronics,assistant,14999,20
+17,siri,apple,electronics,assistant,18000,20
+18,g-90,ingco,hardware,wire,100,20
+19,ti-83,xiaomi,electronics,telephone,1200,20
+20,mk-12,lacme,beauty,makeup box,2000,20
+21,mk-45,lacme,beauty,makeup box,3000,20
+22,dk-1001,daniel klein,beauty,watch,4780,20
+23,dk-1002,daniel klein,beauty,watch,5000,20
+24,ti-octane,titan,beauty,watch,5060,20
+25,dk-3001,daniel klein,beauty,watch,8300,20
+26,submariner,rolex,beauty,watch,73000,20
+27,twsbi eco,twsbi,office supplies,fountain pen,4500,20
+28,metropolitan,pilot,office supplies,fountain pen,1800,20
+29,safari,lamy,office supplies,fountain pen,2700,20
+30,ocean gel,linc,office supplies,gel pen,10,20
+31,all time,matador,office supplies,pen,5,20
+32,high school,matador,office supplies,pen,5,20
+33,pin point,matador,office supplies,pen,5,20
+34,v5,pilot,office supplies,gel pen,80,20
+35,v7,pilot,office supplies,gel pen,90,20

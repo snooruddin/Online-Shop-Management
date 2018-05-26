@@ -1,10 +1,10 @@
 ﻿--unComment all of these if you are having issues with creating the tables
---DROP TABLE ORDERDETAILS;
---DROP TABLE ORDERS;
---DROP TABLE CUSTOMERS;
---DROP TABLE EMPLOYEES;
---DROP TABLE PRODUCTS;
---DROP TABLE LOG;
+DROP TABLE ORDERDETAILS;
+DROP TABLE ORDERS;
+DROP TABLE CUSTOMERS;
+DROP TABLE EMPLOYEES;
+DROP TABLE PRODUCTS;
+DROP TABLE LOG;
 
 CREATE TABLE Customers
 (   id INTEGER
@@ -50,6 +50,7 @@ CREATE TABLE Orders
 ,   quantity INTEGER CHECK(quantity > 0)
 ,   totalPrice NUMBER(9,2) CHECK(totalPrice > 0)
 ,   clubPointsUsed NUMBER(9,2) 
+,   customerPaid NUMBER(9,2)
     
 ,   PRIMARY KEY(id)
 ,   FOREIGN KEY(cid) REFERENCES customers(id)
